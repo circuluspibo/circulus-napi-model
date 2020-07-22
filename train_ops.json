@@ -1,0 +1,281 @@
+{
+  "took": 15,
+  "timed_out": false,
+  "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+  },
+  "hits": {
+      "total": {
+          "value": 130,
+          "relation": "eq"
+      },
+      "max_score": 1.0,
+      "hits": [
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "epcYi20BxL1fGZ72FNp4",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5d91b4646743fa0011f5d6a5",
+                  "userId": "5d91b3d66743fa0011f5d6a3",
+                  "custom": true,
+                  "q": "누구인가 누가 기침소리를 내었어?",
+                  "a": "신이옵니다 콜록콜록!",
+                  "createdAt": "2019-10-02T15:11:14.159",
+                  "updatedAt": "2019-10-02T15:36:50.163",
+                  "use": false
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "oJfqiW0BxL1fGZ72VMqm",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5d91d7b5e5d24300116e2638",
+                  "userId": "5d91d544e5d24300116e2637",
+                  "custom": true,
+                  "q": "오늘 좋다.",
+                  "a": "나도 그래.",
+                  "createdAt": "2019-10-02T09:41:38.734",
+                  "updatedAt": "2019-10-02T09:43:59.553",
+                  "use": false
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "xJfsiW0BxL1fGZ72l8pk",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5d91d7b5e5d24300116e2638",
+                  "userId": "5d91d544e5d24300116e2637",
+                  "custom": true,
+                  "q": "좋다",
+                  "a": "그래그래",
+                  "createdAt": "2019-10-02T09:44:06.893",
+                  "updatedAt": "2019-10-02T09:44:32.204",
+                  "use": false
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "iez_Om8BxL1fGZ729Wb8",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5dfe1b8309d0580011b2595f",
+                  "userId": "5dfdf0bd09d0580011b25959",
+                  "custom": false,
+                  "qId": "7ZdJgm0BxL1fGZ726aRU",
+                  "q": "좋아하는 음료 메뉴가 뭐야?",
+                  "a": "좋아하는 음료 메뉴는 콜라야",
+                  "createdAt": "2019-12-25T12:00:50.812",
+                  "updatedAt": "2019-12-28T21:58:20.368",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "vykgo28BIfF0uZH3eTn_",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5e1d4453119c1c001159dc77",
+                  "userId": "5dd3f183948c810011604ed9",
+                  "custom": false,
+                  "qId": "7pdJgm0BxL1fGZ726aRb",
+                  "q": "특별한 날 먹고싶은 요리는 뭐야?",
+                  "a": "스테이크! 너무 맛나자나",
+                  "createdAt": "2020-01-14T17:16:52.221",
+                  "updatedAt": "2020-01-14T17:16:52.221",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "simtp28BIfF0uZH36Vtc",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5e1e6690119c1c001159dc8e",
+                  "userId": "5dd3f183948c810011604ed9",
+                  "custom": false,
+                  "qId": "6pdJgm0BxL1fGZ726aRF",
+                  "q": "평소에 좋아하는 음식은?",
+                  "a": "비빔밥 좋아해!",
+                  "createdAt": "2020-01-15T14:29:50.167",
+                  "updatedAt": "2020-01-15T14:29:50.167",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "QCkonm8BIfF0uZH3AwhP",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5de4ab5a487d43001871609b",
+                  "userId": "5dd3f183948c810011604ed9",
+                  "custom": false,
+                  "qId": "7JdJgm0BxL1fGZ726aRN",
+                  "q": "좋아하는 커피는?",
+                  "a": "아메리카노, 좋아~ 좋아? 좋아!",
+                  "createdAt": "2020-01-13T18:07:00.045",
+                  "updatedAt": "2020-01-13T18:07:00.045",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "tyi9iG8BIfF0uZH3WAw6",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5dcb6ae1ecebba001111ebff",
+                  "userId": "5dcb699fecebba001111ebfe",
+                  "custom": true,
+                  "q": "이번 주말에 뭐 할까?",
+                  "a": "파이보와 피크닉 가는 건 어때?",
+                  "createdAt": "2020-01-09T14:18:27.890",
+                  "updatedAt": "2020-01-09T14:18:27.890",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "rCtxPXABIfF0uZH365Na",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5d92f66a3edef200110a59c9",
+                  "userId": "5d92f3293edef200110a59c8",
+                  "custom": true,
+                  "q": "어떤 자동차 좋아해?",
+                  "a": "나는 아이오닉을 좋아해.전기차가 주는 전기 맛이 가장 좋더라고!",
+                  "locale": "ko",
+                  "createdAt": "2020-02-13T16:27:20.897",
+                  "updatedAt": "2020-02-13T16:27:20.897",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "sSvOQXABIfF0uZH3H5Ou",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5e343926d0fe0700185b5fdb",
+                  "userId": "5e3437f2d0fe0700185b5fda",
+                  "custom": true,
+                  "q": "다녀왔어",
+                  "a": "오늘도 엄청 수고했어. ",
+                  "locale": "ko",
+                  "createdAt": "2020-02-14T12:46:32.500",
+                  "updatedAt": "2020-02-14T12:46:32.500",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "rStxPXABIfF0uZH3-pNz",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5d91e3152c2f9000111f3d1e",
+                  "userId": "5d91b6cb6743fa0011f5d6b2",
+                  "custom": true,
+                  "q": "노래 불러줘.",
+                  "a": "미안해 나 노래 부를지 몰랑",
+                  "locale": "ko",
+                  "createdAt": "2020-02-13T16:27:24.762",
+                  "updatedAt": "2020-02-13T16:33:34.169",
+                  "use": false
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "sytHYnABIfF0uZH3iJMM",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5e4e5542ce45760011f8c3cc",
+                  "userId": "5e4e51d9ce45760011f8c3cb",
+                  "custom": true,
+                  "q": "파이보 안녕?",
+                  "a": "안녕 반가워요",
+                  "locale": "ko",
+                  "createdAt": "2020-02-20T20:06:59.914",
+                  "updatedAt": "2020-02-20T20:08:51.273",
+                  "use": false
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "tivxYnABIfF0uZH3jZO7",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5e4e5542ce45760011f8c3cc",
+                  "userId": "5e4e51d9ce45760011f8c3cb",
+                  "custom": true,
+                  "q": "파이보, 잘 시간이야!",
+                  "a": "안녕 잘자",
+                  "locale": "ko",
+                  "createdAt": "2020-02-20T23:12:42.568",
+                  "updatedAt": "2020-02-20T23:12:42.568",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "vSvWf3ABIfF0uZH3BJN3",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5c99731967c6a814443bbec5",
+                  "userId": "5c996db9351bd42ea82efa2e",
+                  "custom": true,
+                  "q": "저리가",
+                  "a": "가기싫어",
+                  "locale": "ko",
+                  "createdAt": "2020-02-26T13:51:37.204",
+                  "updatedAt": "2020-02-28T12:34:26.064",
+                  "use": false
+              }
+          },
+          {
+              "_index": "train",
+              "_type": "_doc",
+              "_id": "wit2rXABIfF0uZH3aJOK",
+              "_score": 1.0,
+              "_source": {
+                  "robotId": "5e606dd62c34180011736f7d",
+                  "userId": "5e60676fce45760011f8c479",
+                  "custom": true,
+                  "q": "나 많이 우울해",
+                  "a": "내가 널 즐겁게 해줄게. 움치 둠치 둠치.\n",
+                  "locale": "ko",
+                  "createdAt": "2020-03-06T10:29:43.301",
+                  "updatedAt": "2020-03-06T11:05:39.627",
+                  "use": false
+              }
+          }
+      ]
+  },
+  "aggregations": {
+      "rx_average": {
+          "value": null
+      },
+      "rx_sum": {
+          "value": null
+      },
+      "rx_median": {
+          "value": null
+      }
+  }
+}

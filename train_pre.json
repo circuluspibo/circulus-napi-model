@@ -1,0 +1,464 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+  },
+  "hits": {
+      "total": {
+          "value": 31,
+          "relation": "eq"
+      },
+      "max_score": 1.0,
+      "hits": [
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "0JdJgm0BxL1fGZ726KS0",
+              "_score": 1.0,
+              "_source": {
+                  "category": "movie",
+                  "q": "어떤 장르의 영화를 제일 좋아해?",
+                  "a": "액션",
+                  "createdAt": "2019-09-30T22:09:04.828",
+                  "updatedAt": "2019-09-30T22:09:04.828",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "0ZdJgm0BxL1fGZ726KTD",
+              "_score": 1.0,
+              "_source": {
+                  "category": "movie",
+                  "q": "영화는 한달에 몇 번이나 보니?",
+                  "a": "두번",
+                  "createdAt": "2019-09-30T22:09:04.846",
+                  "updatedAt": "2019-09-30T22:09:04.846",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "0pdJgm0BxL1fGZ726KTN",
+              "_score": 1.0,
+              "_source": {
+                  "category": "movie",
+                  "q": "심야영화랑 조조영화 중 하나를 선택하면?",
+                  "a": "조조영화",
+                  "createdAt": "2019-09-30T22:09:04.856",
+                  "updatedAt": "2019-09-30T22:09:04.856",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "05dJgm0BxL1fGZ726KTW",
+              "_score": 1.0,
+              "_source": {
+                  "category": "movie",
+                  "q": "추천해주고 싶은 영화 제목은?",
+                  "a": "신과 함께",
+                  "createdAt": "2019-09-30T22:09:04.864",
+                  "updatedAt": "2019-09-30T22:09:04.864",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "1JdJgm0BxL1fGZ726KTe",
+              "_score": 1.0,
+              "_source": {
+                  "category": "movie",
+                  "q": "인생 최악의 영화 제목은?",
+                  "a": "슈퍼맨",
+                  "createdAt": "2019-09-30T22:09:04.874",
+                  "updatedAt": "2019-09-30T22:09:04.874",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "1ZdJgm0BxL1fGZ726KTk",
+              "_score": 1.0,
+              "_source": {
+                  "category": "movie",
+                  "q": "좋아하는 영화 배우는 누구야?",
+                  "a": "하정우",
+                  "createdAt": "2019-09-30T22:09:04.881",
+                  "updatedAt": "2019-09-30T22:09:04.881",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "1pdJgm0BxL1fGZ726KTp",
+              "_score": 1.0,
+              "_source": {
+                  "category": "movie",
+                  "q": "영화에서 인상 깊은 대사에 대해 알려줘.",
+                  "a": "니들 땜에 내가 늙는다 늙어",
+                  "createdAt": "2019-09-30T22:09:04.885",
+                  "updatedAt": "2019-09-30T22:09:04.885",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "15dJgm0BxL1fGZ726KTu",
+              "_score": 1.0,
+              "_source": {
+                  "category": "movie",
+                  "q": "가장 좋아하는 영화 주인공은 누구야?",
+                  "a": "강림",
+                  "createdAt": "2019-09-30T22:09:04.890",
+                  "updatedAt": "2019-09-30T22:09:04.890",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "2JdJgm0BxL1fGZ726KTy",
+              "_score": 1.0,
+              "_source": {
+                  "category": "music",
+                  "q": "어떤 장르의 음악을 제일 좋아해?",
+                  "a": "댄스",
+                  "createdAt": "2019-09-30T22:09:04.895",
+                  "updatedAt": "2019-09-30T22:09:04.895",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "2ZdJgm0BxL1fGZ726KT2",
+              "_score": 1.0,
+              "_source": {
+                  "category": "music",
+                  "q": "기분이 나쁠 때 무슨 음악을 들어?",
+                  "a": "작은 것들을 위한 시",
+                  "createdAt": "2019-09-30T22:09:04.899",
+                  "updatedAt": "2019-09-30T22:09:04.899",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "2pdJgm0BxL1fGZ726KT7",
+              "_score": 1.0,
+              "_source": {
+                  "category": "music",
+                  "q": "가장 좋아하는 노래는?",
+                  "a": "작은 것들을 위한 시",
+                  "createdAt": "2019-09-30T22:09:04.903",
+                  "updatedAt": "2019-09-30T22:09:04.903",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "25dJgm0BxL1fGZ726aQB",
+              "_score": 1.0,
+              "_source": {
+                  "category": "music",
+                  "q": "파이보에게 들려주고 싶은 노래 있어?",
+                  "a": "작은 것들을 위한 시",
+                  "createdAt": "2019-09-30T22:09:04.909",
+                  "updatedAt": "2019-09-30T22:09:04.909",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "3JdJgm0BxL1fGZ726aQG",
+              "_score": 1.0,
+              "_source": {
+                  "category": "music",
+                  "q": "좋아하는 가수는 누구야?",
+                  "a": "방탄소년단",
+                  "createdAt": "2019-09-30T22:09:04.915",
+                  "updatedAt": "2019-09-30T22:09:04.915",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "3ZdJgm0BxL1fGZ726aQK",
+              "_score": 1.0,
+              "_source": {
+                  "category": "travel",
+                  "q": "가장 여행하고 싶은 나라는?",
+                  "a": "스위스",
+                  "createdAt": "2019-09-30T22:09:04.919",
+                  "updatedAt": "2019-09-30T22:09:04.919",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "3pdJgm0BxL1fGZ726aQO",
+              "_score": 1.0,
+              "_source": {
+                  "category": "travel",
+                  "q": "제일 좋았던 여행지는 어디야?",
+                  "a": "융프라우",
+                  "createdAt": "2019-09-30T22:09:04.923",
+                  "updatedAt": "2019-09-30T22:09:04.923",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "35dJgm0BxL1fGZ726aQT",
+              "_score": 1.0,
+              "_source": {
+                  "category": "travel",
+                  "q": "국내에서 제일 가고 싶은 여행지는?",
+                  "a": "강화도",
+                  "createdAt": "2019-09-30T22:09:04.927",
+                  "updatedAt": "2019-09-30T22:09:04.927",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "4JdJgm0BxL1fGZ726aQY",
+              "_score": 1.0,
+              "_source": {
+                  "category": "travel",
+                  "q": "한여름에 피서지는 어디가 좋을까?",
+                  "a": "제주도",
+                  "createdAt": "2019-09-30T22:09:04.932",
+                  "updatedAt": "2019-09-30T22:09:04.932",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "4ZdJgm0BxL1fGZ726aQd",
+              "_score": 1.0,
+              "_source": {
+                  "category": "travel",
+                  "q": "파이보와 함께 가고 싶은 곳이 있어?",
+                  "a": "하와이",
+                  "createdAt": "2019-09-30T22:09:04.937",
+                  "updatedAt": "2019-09-30T22:09:04.937",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "4pdJgm0BxL1fGZ726aQh",
+              "_score": 1.0,
+              "_source": {
+                  "category": "book",
+                  "q": "어떤 분야의 책을 즐겨 읽니?",
+                  "a": "소설",
+                  "createdAt": "2019-09-30T22:09:04.942",
+                  "updatedAt": "2019-09-30T22:09:04.942",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "45dJgm0BxL1fGZ726aQl",
+              "_score": 1.0,
+              "_source": {
+                  "category": "book",
+                  "q": "재미있게 본 책이 뭐야?",
+                  "a": "왜 나는 너를 사랑하는가",
+                  "createdAt": "2019-09-30T22:09:04.946",
+                  "updatedAt": "2019-09-30T22:09:04.946",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "5JdJgm0BxL1fGZ726aQp",
+              "_score": 1.0,
+              "_source": {
+                  "category": "book",
+                  "q": "책은 어디서 읽는게 좋아?",
+                  "a": "침대",
+                  "createdAt": "2019-09-30T22:09:04.950",
+                  "updatedAt": "2019-09-30T22:09:04.950",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "5ZdJgm0BxL1fGZ726aQt",
+              "_score": 1.0,
+              "_source": {
+                  "category": "book",
+                  "q": "두 번 이상 읽은 책 제목은?",
+                  "a": "탈무드",
+                  "createdAt": "2019-09-30T22:09:04.954",
+                  "updatedAt": "2019-09-30T22:09:04.954",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "5pdJgm0BxL1fGZ726aQy",
+              "_score": 1.0,
+              "_source": {
+                  "category": "book",
+                  "q": "좋아하는 작가가 있어?",
+                  "a": "알랭드보통",
+                  "createdAt": "2019-09-30T22:09:04.958",
+                  "updatedAt": "2019-09-30T22:09:04.958",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "55dJgm0BxL1fGZ726aQ3",
+              "_score": 1.0,
+              "_source": {
+                  "category": "book",
+                  "q": "가장 기억에 남는 문장을 알려줘",
+                  "a": "어디로라도 어디로라도 이 세상 바깥이기만 하다면",
+                  "createdAt": "2019-09-30T22:09:04.963",
+                  "updatedAt": "2019-09-30T22:09:04.963",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "6JdJgm0BxL1fGZ726aQ8",
+              "_score": 1.0,
+              "_source": {
+                  "category": "book",
+                  "q": "내가 어떤 책을 읽어주면 좋아할 것 같아?",
+                  "a": "이솝우화",
+                  "createdAt": "2019-09-30T22:09:04.969",
+                  "updatedAt": "2019-09-30T22:09:04.969",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "6ZdJgm0BxL1fGZ726aRA",
+              "_score": 1.0,
+              "_source": {
+                  "category": "book",
+                  "q": "로봇인 나한테 추천해 줄 만한 책이 있어?",
+                  "a": "여행의 기술",
+                  "createdAt": "2019-09-30T22:09:04.973",
+                  "updatedAt": "2019-09-30T22:09:04.973",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "6pdJgm0BxL1fGZ726aRF",
+              "_score": 1.0,
+              "_source": {
+                  "category": "food",
+                  "q": "평소에 좋아하는 음식은?",
+                  "a": "마라탕",
+                  "createdAt": "2019-09-30T22:09:04.977",
+                  "updatedAt": "2019-09-30T22:09:04.977",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "65dJgm0BxL1fGZ726aRJ",
+              "_score": 1.0,
+              "_source": {
+                  "category": "food",
+                  "q": "가장 잘하는 요리가 뭐야?",
+                  "a": "라면",
+                  "createdAt": "2019-09-30T22:09:04.981",
+                  "updatedAt": "2019-09-30T22:09:04.981",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "7JdJgm0BxL1fGZ726aRN",
+              "_score": 1.0,
+              "_source": {
+                  "category": "food",
+                  "q": "좋아하는 커피는?",
+                  "a": "아메리카노",
+                  "createdAt": "2019-09-30T22:09:04.985",
+                  "updatedAt": "2019-09-30T22:09:04.985",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "7ZdJgm0BxL1fGZ726aRU",
+              "_score": 1.0,
+              "_source": {
+                  "category": "food",
+                  "q": "좋아하는 음료 메뉴가 뭐야?",
+                  "a": "커피",
+                  "createdAt": "2019-09-30T22:09:04.991",
+                  "updatedAt": "2019-09-30T22:09:04.991",
+                  "use": true
+              }
+          },
+          {
+              "_index": "train_pre",
+              "_type": "_doc",
+              "_id": "7pdJgm0BxL1fGZ726aRb",
+              "_score": 1.0,
+              "_source": {
+                  "category": "food",
+                  "q": "특별한 날 먹고싶은 요리는 뭐야?",
+                  "a": "탕수육",
+                  "createdAt": "2019-09-30T22:09:04.999",
+                  "updatedAt": "2019-09-30T22:09:04.999",
+                  "use": true
+              }
+          }
+      ]
+  },
+  "aggregations": {
+      "rx_average": {
+          "value": null
+      },
+      "rx_sum": {
+          "value": null
+      },
+      "rx_median": {
+          "value": null
+      }
+  }
+}
